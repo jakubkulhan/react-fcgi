@@ -1,6 +1,7 @@
 # React\Fcgi
 
 [![Build Status](https://travis-ci.org/jakubkulhan/react-fcgi.svg?branch=master)](https://travis-ci.org/jakubkulhan/react-fcgi)
+[![Downloads this Month](https://img.shields.io/packagist/dm/react/fcgi.svg)](https://packagist.org/packages/react/fcgi)
 
 > Asynchronous FastCGI server built on ReactPHP
 
