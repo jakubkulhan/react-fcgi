@@ -1,0 +1,39 @@
+{
+    "name": "react/fcgi",
+    "type": "library",
+    "description": "Asynchronous FastCGI server built on ReactPHP",
+    "keywords": [
+        "fastcgi",
+        "fcgi",
+        "http",
+        "server",
+        "react",
+        "react-php",
+        "reactphp"
+    ],
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jakub Kulhan",
+            "email": "jakub.kulhan@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "react/event-loop": "~0.4",
+        "react/promise": "~2.2",
+        "symfony/http-foundation": "~2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "React\\Fcgi\\": [
+                "src/React/Fcgi/",
+                "test/React/Fcgi/"
+            ]
+        }
+    }
+}
